@@ -28,9 +28,8 @@ h2{
     font-style: italic;
 }
 h3{
-    border-left: double 20px #fff;
-    border-radius: 30px;
-    padding-left: 12px;
+    border-left:groove 20px #fff;
+    padding-left: 14px;
 }
 p{
     line-height: 2.1em;
@@ -63,7 +62,7 @@ a:active{
 }
 #p1{
     border:#e3f212 dotted 2px;
-    padding: 20px;
+    padding: 16px;
 }
 /* CLASS RULE */
 .highlight{
