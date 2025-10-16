@@ -1,1 +1,77 @@
-
+body{
+    background-color:darkslategrey;
+    color:azure;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 45px;
+}
+#container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-left: black dashed 4px;
+    border-right: black dashed 4px;
+}
+h1{
+    background-color:coral;
+    border:darkgoldenrod, solid, 3px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    text-align:center;
+    font-size: 1.7em;
+    font-style: italic;
+}
+h3{
+    border-left: double 20px #fff;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+p{
+    line-height: 2.1em;
+}
+img{
+    float: left;
+    width: 300px;
+    border: #12f2a4 solid 3px;
+    border-radius: 15px;
+    margin-right: 12px;
+}
+a:link{
+    color:coral;
+    text-decoration:none;
+    font-weight: bold;
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color:crimson;
+    text-decoration:underline;
+}
+a:active{
+    color:chocolate;
+}
+#pic2{
+    float: right;
+    margin-left: 12px;
+}
+#p1{
+    border:#e3f212 dotted 2px;
+    padding: 20px;
+}
+/* CLASS RULE */
+.highlight{
+    font-weight: bold;
+    background-color: burlywood;
+    padding: 3x;
+    color:black;
+}
+.highlight:hover{
+    background-color:darkgoldenrod;
+}
