@@ -9,8 +9,8 @@ body{
     margin: 0 auto;
     padding: 40px;
     background-color:darkslategray;
-    border-left:aliceblue dashed 4px;
-    border-right:aliceblue dashed 4px;
+    border-left:aliceblue dashed 2px;
+    border-right:aliceblue dashed 2px;
 }
 h1{
     background-color:coral;
@@ -68,7 +68,7 @@ a:active{
 /* CLASS RULE */
 .highlight{
     font-weight: bold;
-    background-color: burlywood;
+    background-color:cornflowerblue;
     padding: 3x;
     color:black;
 }
