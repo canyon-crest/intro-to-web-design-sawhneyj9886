@@ -120,11 +120,11 @@ text-decoration:underline;
     #sidebar{
         display: none;
     }
-    img{
+    /* img{
         clear: both;
         border: none;
         width: 100%;
-    }
+    } */
     #container{
         width: 100%;
     }
