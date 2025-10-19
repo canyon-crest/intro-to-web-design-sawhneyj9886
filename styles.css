@@ -73,11 +73,11 @@ a:active{
     color:black;
 }
 .highlight:hover{
-    background-color:darkgoldenrod;
+    background-color:darksalmon;
 }
 #sidebar{
     background-color: black;
-    width: 200px;
+    width: 234px;
     float:right;
     border: 3px solid whitesmoke;
     margin: 15px;
@@ -86,9 +86,12 @@ a:active{
 }
 #sidebar h3{
 padding: 5px;
-width: 100px;
+width: 200px;
 margin-left: 10px;
 text-decoration:underline;
+}
+#sidebar li{
+    margin: 8px;
 }
 @media (max-width:1200px){
     #container{
@@ -120,12 +123,13 @@ text-decoration:underline;
     #sidebar{
         display: none;
     }
-    /* img{
+    img{
         clear: both;
         border: none;
         width: 100%;
-    } */
+    }
     #container{
+        
         width: 100%;
     }
     body,h1,h2,h3,p,div{
