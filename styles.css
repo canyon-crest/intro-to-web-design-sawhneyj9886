@@ -36,10 +36,20 @@ p{
     line-height: 2.1em;
 }
 img{
-    float: left;
     width: 300px;
     border: #12f2a4 solid 3px;
     border-radius: 15px;
+}
+#pic1{
+    float: left;
+    margin-right: 12px;
+}
+#pic2{
+    float: right;
+    margin-left: 12px;
+}
+#pic3{
+    float: left;
     margin-right: 12px;
 }
 a:link{
@@ -57,10 +67,7 @@ a:hover{
 a:active{
     color:chocolate;
 }
-#pic2{
-    float: right;
-    margin-left: 12px;
-}
+
 #p1{
     border:#12f264 dotted 2px;
     padding: 16px;
