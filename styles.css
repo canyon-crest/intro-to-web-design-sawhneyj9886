@@ -75,7 +75,7 @@ a:active{
 /* CLASS RULE */
 .highlight{
     font-weight: bold;
-    background-color:cornflowerblue;
+    background-color:aquamarine;
     padding: 3x;
     color:black;
 }
