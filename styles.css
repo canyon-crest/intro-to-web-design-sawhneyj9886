@@ -23,7 +23,7 @@ h1{
     margin: 0px auto;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     animation-name: slide-in-right;
-animation-duration: 3s;
+animation-duration: 1s;
 animation-iteration-count: 1;
 }
 h2{
@@ -53,7 +53,7 @@ from {
 }
 @keyframes slide-in-left{
 from {
-    translate: 50vw 0;
+    translate: 150vw 0;
     scale: 200% 1;
     
 }
@@ -70,7 +70,7 @@ h3{
     border-left:groove 20px #fff;
     padding-left: 14px;
     animation-name: slide-in-right;
-animation-duration: 3s;
+animation-duration: 2s;
 animation-iteration-count: 1;
 }
 p{
@@ -79,28 +79,22 @@ p{
 img{
     width: 300px;
     border: #12f2a4 solid 3px;
-    border-radius: 15px; 
+    border-radius: 15px;
+    animation-name: fade-in;
+    animation-duration: 8s;
+    animation-iteration-count: 1; 
 }
 #pic1{
     float: left;
     margin-right: 12px;
-    animation-name: slide-in-right;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
 }
 #pic2{
     float: right;
     margin-left: 12px;
-    animation-name: slide-in-left;
-    animation-duration: 9s;
-    animation-iteration-count: 1;
 }
 #pic3{
     float: left;
     margin-right: 12px;
-     animation-name: slide-in-left;
-    animation-duration: 16s;
-    animation-iteration-count: 1;
 }
 a:link{
     color:rgb(80, 240, 255);
