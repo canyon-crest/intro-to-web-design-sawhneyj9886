@@ -22,15 +22,56 @@ h1{
     text-align: center;
     margin: 0px auto;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: slide-in-right;
+animation-duration: 3s;
+animation-iteration-count: 1;
 }
 h2{
     text-align:center;
     font-size: 1.7em;
     font-style: italic;
+    animation-name: slide-in-left;
+    animation-duration: 11s;
+    animation-iteration-count: 1; 
+}
+@keyframes fade-in{
+    0% {
+    opacity: 0;
+    display: none;
+  }
+
+  100% {
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes slide-in-right{
+from {
+    translate: 150vw 0;
+    scale: 200% 1;
+}
+}
+@keyframes slide-in-left{
+from {
+    translate: 50vw 0;
+    scale: 200% 1;
+    
+}
+0% {
+    transform: translateX(-100%); /* Start 100% of its own width to the left */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 h3{
     border-left:groove 20px #fff;
     padding-left: 14px;
+    animation-name: slide-in-right;
+animation-duration: 3s;
+animation-iteration-count: 1;
 }
 p{
     line-height: 2.1em;
@@ -38,19 +79,28 @@ p{
 img{
     width: 300px;
     border: #12f2a4 solid 3px;
-    border-radius: 15px;
+    border-radius: 15px; 
 }
 #pic1{
     float: left;
     margin-right: 12px;
+    animation-name: slide-in-right;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 }
 #pic2{
     float: right;
     margin-left: 12px;
+    animation-name: slide-in-left;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
 }
 #pic3{
     float: left;
     margin-right: 12px;
+     animation-name: slide-in-left;
+    animation-duration: 16s;
+    animation-iteration-count: 1;
 }
 a:link{
     color:rgb(80, 240, 255);
@@ -78,18 +128,24 @@ a:active{
     background-color:aquamarine;
     padding: 3x;
     color:black;
+    animation-name: slide-in-left;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
 }
 .highlight:hover{
     background-color:darksalmon;
 }
 #sidebar{
-    background-color: black;
+    background-color: rgb(0, 20, 4);
     width: 234px;
     float:right;
     border: 3px solid whitesmoke;
     margin: 15px;
     margin-top: 60px;
     line-height: 2.25em;
+     animation-name: fade-in;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
 }
 #sidebar h3{
 padding: 5px;
